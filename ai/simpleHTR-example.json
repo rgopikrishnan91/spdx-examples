@@ -146,7 +146,7 @@
         },
         {
             "type": "Relationship",
-            "spdxId": "https://github.com/githubharald/SimpleHTR/tree/master/src- contains",
+            "spdxId": "https://github.com/githubharald/SimpleHTR/tree/master/src-contains",
             "creationInfo": "_:creationinfo_of_package",
             "relationshipType": "contains",
             "from": "https://github.com/githubharald/SimpleHTR/tree/master/src",
