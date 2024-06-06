@@ -1280,6 +1280,46 @@
             "software_sbomType": [
                 "analyzed"
             ]
+        },
+        {
+            "type": "expandedlicensing_CustomLicense",
+            "spdxId": "https://spdx.org/spdxdocs/CustomLicense-c63547c2-62e0-48ec-b98d-ff1b917d67db",
+            "creationInfo": "_:creationinfo",
+            "simplelicensing_licenseText": "This database may be used for non-commercial research purpose only. If you publish material based on this database, we request you to include a reference to paper. U. Marti and H. Bunke. The IAM-database: An English Sentence Database for Off-line Handwriting Recognition. Int. Journal on Document Analysis and Recognition, Volume 5, pages 39 - 46, 2002.",
+            "expandedlicensing_isFsfLibre": false,
+            "expandedlicensing_isOsiApproved": false
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "https://spdx.org/spdxdocs/Relationship/declaredLicense-2c9563dc-baa1-4385-be02-ad671976a8aa",
+            "creationInfo": "_:creationinfo",
+            "relationshipType": "hasDeclaredLicense",
+            "from": "https://my-first-aibom.com/IAMdataset",
+            "to": "https://spdx.org/spdxdocs/CustomLicense-c63547c2-62e0-48ec-b98d-ff1b917d67db"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "https://spdx.org/spdxdocs/Relationship/concludedLicense-3bcfa4ce-6a65-46e8-bed1-18985211bb9e",
+            "creationInfo": "_:creationinfo",
+            "relationshipType": "hasConcludedLicense",
+            "from": "https://my-first-aibom.com/IAMdataset",
+            "to": "https://spdx.org/spdxdocs/CustomLicense-c63547c2-62e0-48ec-b98d-ff1b917d67db"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "https://spdx.org/spdxdocs/Relationship/declaredLicense-6f9cae4f-b015-473b-a87c-4a330c589331",
+            "creationInfo": "_:creationinfo",
+            "relationshipType": "hasDeclaredLicense",
+            "from": "https://my-first-aibom.com/SimpleHTR",
+            "to": "MIT"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "https://spdx.org/spdxdocs/Relationship/concludedLicense-7ea6e28f-eead-4b56-8376-282e2d31397b",
+            "creationInfo": "_:creationinfo",
+            "relationshipType": "hasConcludedLicense",
+            "from": "https://my-first-aibom.com/SimpleHTR",
+            "to": "MIT"
         }
     ]
 }
