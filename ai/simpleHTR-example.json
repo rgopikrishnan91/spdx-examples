@@ -151,9 +151,9 @@
             "relationshipType": "contains",
             "from": "https://github.com/githubharald/SimpleHTR/tree/master/src",
             "to": [
-                "https://github.com/githubharald/SimpleHTR/tree/master/src/main",
                 "https://github.com/githubharald/SimpleHTR/tree/master/src/create_lmdb",
                 "https://github.com/githubharald/SimpleHTR/tree/master/src/dataloader_iam",
+                "https://github.com/githubharald/SimpleHTR/tree/master/src/main",
                 "https://github.com/githubharald/SimpleHTR/tree/master/src/model",
                 "https://github.com/githubharald/SimpleHTR/tree/master/src/preprocessor"
             ]
@@ -530,10 +530,10 @@
             "relationshipType": "contains",
             "from": "https://github.com/githubharald/SimpleHTR/tree/master/model",
             "to": [
+                "https://github.com/githubharald/SimpleHTR/tree/master/model/.gitignore",
                 "https://github.com/githubharald/SimpleHTR/tree/master/model/line-model",
                 "https://github.com/githubharald/SimpleHTR/tree/master/model/word-model",
-                "https://github.com/githubharald/SimpleHTR/tree/master/model/wordCharList",
-                "https://github.com/githubharald/SimpleHTR/tree/master/model/.gitignore"
+                "https://github.com/githubharald/SimpleHTR/tree/master/model/wordCharList"
             ]
         },
         {
@@ -669,14 +669,14 @@
             "relationshipType": "contains",
             "from": "https://my-first-aibom.com/SimpleHTR",
             "to": [
-                "https://github.com/githubharald/SimpleHTR/tree/master/src",
-                "https://github.com/githubharald/SimpleHTR/tree/master/doc",
-                "https://github.com/githubharald/SimpleHTR/tree/master/model",
-                "https://github.com/githubharald/SimpleHTR/tree/master/data",
                 "https://github.com/githubharald/SimpleHTR/tree/master/.gitignore",
                 "https://github.com/githubharald/SimpleHTR/tree/master/LICENSE",
                 "https://github.com/githubharald/SimpleHTR/tree/master/README",
-                "https://github.com/githubharald/SimpleHTR/tree/master/requirements"
+                "https://github.com/githubharald/SimpleHTR/tree/master/data",
+                "https://github.com/githubharald/SimpleHTR/tree/master/doc",
+                "https://github.com/githubharald/SimpleHTR/tree/master/model",
+                "https://github.com/githubharald/SimpleHTR/tree/master/requirements",
+                "https://github.com/githubharald/SimpleHTR/tree/master/src"
             ]
         },
         {
@@ -866,13 +866,13 @@
             "relationshipType": "dependsOn",
             "from": "https://my-first-aibom.com/SimpleHTR",
             "to": [
-                "https://pypi.org/project/tensorflow/2.4.0/",
-                "https://pypi.org/project/path/15.0.0/",
-                "https://pypi.org/project/opencv-python/4.4.0.46/",
-                "https://pypi.org/project/numpy/1.19.5/",
-                "https://pypi.org/project/matplotlib/3.2.1/",
+                "https://pypi.org/project/editdistance/0.5.2/",
                 "https://pypi.org/project/lmdb/1.0.0/",
-                "https://pypi.org/project/editdistance/0.5.2/"
+                "https://pypi.org/project/matplotlib/3.2.1/",
+                "https://pypi.org/project/numpy/1.19.5/",
+                "https://pypi.org/project/opencv-python/4.4.0.46/",
+                "https://pypi.org/project/path/15.0.0/",
+                "https://pypi.org/project/tensorflow/2.4.0/"
             ]
         },
         {
@@ -1035,13 +1035,13 @@
             "relationshipType": "dependsOn",
             "from": "https://my-first-aibom.com/SimpleHTR",
             "to": [
-                "https://pypi.org/project/tensorflow/2.4.0/",
-                "https://pypi.org/project/path/15.0.0/",
-                "https://pypi.org/project/opencv-python/4.4.0.46/",
-                "https://pypi.org/project/numpy/1.19.5/",
-                "https://pypi.org/project/matplotlib/3.2.1/",
+                "https://pypi.org/project/editdistance/0.5.2/",
                 "https://pypi.org/project/lmdb/1.0.0/",
-                "https://pypi.org/project/editdistance/0.5.2/"
+                "https://pypi.org/project/matplotlib/3.2.1/",
+                "https://pypi.org/project/numpy/1.19.5/",
+                "https://pypi.org/project/opencv-python/4.4.0.46/",
+                "https://pypi.org/project/path/15.0.0/",
+                "https://pypi.org/project/tensorflow/2.4.0/"
             ]
         },
         {
@@ -1295,7 +1295,9 @@
             "creationInfo": "_:creationinfo",
             "relationshipType": "hasDeclaredLicense",
             "from": "https://my-first-aibom.com/IAMdataset",
-            "to": "https://spdx.org/spdxdocs/CustomLicense-c63547c2-62e0-48ec-b98d-ff1b917d67db"
+            "to": [
+                "https://spdx.org/spdxdocs/CustomLicense-c63547c2-62e0-48ec-b98d-ff1b917d67db"
+            ]
         },
         {
             "type": "Relationship",
@@ -1303,7 +1305,9 @@
             "creationInfo": "_:creationinfo",
             "relationshipType": "hasConcludedLicense",
             "from": "https://my-first-aibom.com/IAMdataset",
-            "to": "https://spdx.org/spdxdocs/CustomLicense-c63547c2-62e0-48ec-b98d-ff1b917d67db"
+            "to": [
+                "https://spdx.org/spdxdocs/CustomLicense-c63547c2-62e0-48ec-b98d-ff1b917d67db"
+            ]
         },
         {
             "type": "Relationship",
@@ -1311,7 +1315,9 @@
             "creationInfo": "_:creationinfo",
             "relationshipType": "hasDeclaredLicense",
             "from": "https://my-first-aibom.com/SimpleHTR",
-            "to": "MIT"
+            "to": [
+                "MIT"
+            ]
         },
         {
             "type": "Relationship",
@@ -1319,7 +1325,9 @@
             "creationInfo": "_:creationinfo",
             "relationshipType": "hasConcludedLicense",
             "from": "https://my-first-aibom.com/SimpleHTR",
-            "to": "MIT"
+            "to": [
+                "MIT"
+            ]
         }
     ]
 }
