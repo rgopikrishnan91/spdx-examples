@@ -878,7 +878,7 @@
         {
             "type": "ai_AIPackage",
             "spdxId": "https://my-first-aibom.com/word-model",
-            "creationInfo": ":_creationinfo",
+            "creationInfo": "_:creationinfo",
             "name": "word-model",
             "releaseTime": "2023-09-07T00:00:00Z",
             "suppliedBy": "https://github.com/githubharald",
@@ -1056,7 +1056,7 @@
         {
             "type": "ai_AIPackage",
             "spdxId": "https://my-first-aibom.com/line-model",
-            "creationInfo": ":_creationinfo",
+            "creationInfo": "_:creationinfo",
             "name": "line-model",
             "releaseTime": "2023-09-07T00:00:00Z",
             "suppliedBy": "https://github.com/githubharald",
@@ -1230,7 +1230,7 @@
         {
             "type": "dataset_DatasetPackage",
             "spdxId": "https://my-first-aibom.com/IAMdataset",
-            "creationInfo": ":_creationinfo",
+            "creationInfo": "_:creationinfo",
             "name": "IAMdataset",
             "builtTime": "1999-09-20T00:00:00Z",
             "originatedBy": [
