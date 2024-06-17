@@ -1368,6 +1368,26 @@
             "to": [
                 "https://spdx.org/licenses/MIT"
             ]
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "https://spdx.org/spdxdocs/Relationship/declaredLicense-df2e0abe-a280-48bf-9b6f-684fdeaf4b1b",
+            "creationInfo": "_:creationinfo",
+            "relationshipType": "hasDeclaredLicense",
+            "from": "https://my-first-aibom.com/word-model",
+            "to": [
+                "https://spdx.org/licenses/MIT"
+            ]
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "https://spdx.org/spdxdocs/Relationship/concludedLicense-c338f658-4fef-4608-bdd9-c000f78718e1",
+            "creationInfo": "_:creationinfo",
+            "relationshipType": "hasConcludedLicense",
+            "from": "https://my-first-aibom.com/word-model",
+            "to": [
+                "https://spdx.org/licenses/MIT"
+            ]
         }
     ]
 }
